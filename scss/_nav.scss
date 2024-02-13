@@ -1,0 +1,39 @@
+/* NAV */
+
+header{
+    &>nav{
+        width: var(--box-size);
+        margin: 0 auto;
+        &>ul{
+                list-style-type: none;  
+                &:last-of-type{
+                    float: right;    
+                }
+                &>li{
+                    float: left;
+                    margin-right: 15px;
+                    &>a{
+                        text-decoration: none;
+                        padding: 10px;
+                        border-radius: 15%;
+                        color: var(--text-color);
+                        &:hover{
+                            background-color: var(--link-color-hover);
+                        }
+                    }
+                    &:last-child{
+                        &>a{
+                            background-color: var(--blue);
+                            color: var(--text-color);
+                        }
+                    }
+                }
+            }
+    }
+}
+
+
+
+
+
+

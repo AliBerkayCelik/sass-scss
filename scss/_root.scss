@@ -1,0 +1,24 @@
+
+:root {
+    --blue:#3498db;
+    --white:#f7f1e3;
+    --wet-aspahalt:#34495e;
+    --dark-blue: #34495e;
+    --midnight-blue:#2c3e50;
+    --light-white: #ecf0f1;
+    --silver:#bdc3c7;
+    --hot-stone:#aaa69d;
+    --box-size:1000px;
+    --bg-color: var(--hot-stone);
+    --text-color: var(--black);
+    --body-color: var(--light-white);
+    --link-color:var(--white);
+    --link-color-hover:var(--silver);
+   }
+
+   :root[data-theme="dark"] {
+     --body-color:var(--wet-aspahalt);
+     --bg-color: var(--midnight-blue);
+     --text-color: var(--white);
+     
+   }

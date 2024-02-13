@@ -1,0 +1,29 @@
+/* ASIDE */
+aside,
+section{
+   float: left;
+}
+aside{
+    width: 30%;
+    padding: 15px;
+
+    
+    &>ul{
+        &>li{
+            list-style-type: none;
+            margin-bottom: 30px;
+            &>a{
+                color:var(--link-color);
+                text-decoration: none;
+                padding: 10px 15px;
+            
+                display: block;
+                border-radius: 10px;   
+                &:hover{
+                    background-color: var(--link-color-hover);
+                    color: var(--midnight-blue);
+                }
+            }
+        }
+    }
+}

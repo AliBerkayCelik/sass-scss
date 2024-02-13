@@ -1,0 +1,36 @@
+/* FOOTER */
+
+.footer{
+    background-color: var(--bg-color);
+    height: 70px;
+    padding:10px 0;
+    &>ul{
+        &:last-of-type{
+            float: left;
+            margin-left: 20px;
+            
+        }
+        &>li{
+            list-style-type: none;
+            &>a{
+                float: right;
+                text-decoration: none;
+                color: var(--text-color);
+                margin-right: 30px;
+                display: inline-block;
+                margin-top: 10px;
+                :hover{
+                    color: var(--blue) ;
+                }
+                
+            }
+        }
+    }
+    &>p{
+        text-align: center;
+        margin-left: 350px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+}
+
